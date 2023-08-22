@@ -1,0 +1,150 @@
+{
+  "department": [
+    {
+      "department": "Office",
+      "id": "c8679bcf-5df3-4870-9f59-11cb3d55058b"
+    }
+  ],
+  "designation": [
+    {
+      "department": "c8679bcf-5df3-4870-9f59-11cb3d55058b",
+      "designation": "Team Leader",
+      "id": "79470a47-3f3c-427d-8371-51db434c4902"
+    },
+    {
+      "department": "c8679bcf-5df3-4870-9f59-11cb3d55058b",
+      "designation": "Developer",
+      "id": "14cec5db-37ea-409f-afd4-4929d2b47809"
+    },
+    {
+      "department": "c8679bcf-5df3-4870-9f59-11cb3d55058b",
+      "designation": "HR",
+      "id": "a0c39e9c-e250-49db-957a-c009e0a58281"
+    },
+    {
+      "department": "c8679bcf-5df3-4870-9f59-11cb3d55058b",
+      "designation": "Sales",
+      "id": "cede4c27-8821-49f1-aa9b-677cdbe20d95"
+    }
+  ],
+  "attendance": [],
+  "advance": [],
+  "deduction": [],
+  "salary": [],
+  "employees": [
+    {
+      "aid": "",
+      "status": "",
+      "department": "c8679bcf-5df3-4870-9f59-11cb3d55058b",
+      "designation": "79470a47-3f3c-427d-8371-51db434c4902",
+      "name": "Rhaul Ahirawar",
+      "number": "7987582705",
+      "email": "rahulshing091@gmail.com",
+      "aadharNo": "111122223333",
+      "basicSalary": "20000",
+      "salaryType": "Monthly",
+      "documentId": "https://firebasestorage.googleapis.com/v0/b/safal-hrm.appspot.com/o/images%2Faadhar.png?alt=media&token=823afef2-4cc4-4427-af51-803279fe1c94",
+      "address": "Scheme no.78 , Vijay Nagar , Indore",
+      "state": "Madhya Pradesh",
+      "city": "Indore",
+      "pinCode": "452010",
+      "photo": "https://firebasestorage.googleapis.com/v0/b/safal-hrm.appspot.com/o/images%2FWhatsApp%20Image%202023-08-22%20at%203.32.19%20PM.jpeg?alt=media&token=66af1e41-8418-404f-a65d-b2d1816a7f7e",
+      "id": "b3fc5727-277e-4e68-b9da-4fb098ca5d4a"
+    },
+    {
+      "aid": "",
+      "status": "",
+      "department": "c8679bcf-5df3-4870-9f59-11cb3d55058b",
+      "designation": "14cec5db-37ea-409f-afd4-4929d2b47809",
+      "name": "Ronak Chouhan",
+      "number": "7869551500",
+      "email": "chronak6@gmail.com",
+      "aadharNo": "404778610693",
+      "basicSalary": "15000",
+      "salaryType": "Monthly",
+      "documentId": "https://firebasestorage.googleapis.com/v0/b/safal-hrm.appspot.com/o/images%2Faadhar.png?alt=media&token=ab5ff0f5-1786-4324-b0fc-fa6077b0bc72",
+      "address": "Velocity ,Vijay Nagar, indore",
+      "state": "Madhya Pradesh",
+      "city": "Indore",
+      "pinCode": "452010",
+      "photo": "https://firebasestorage.googleapis.com/v0/b/safal-hrm.appspot.com/o/images%2FWhatsApp%20Image%202023-08-22%20at%203.36.42%20PM.jpeg?alt=media&token=58089040-ef96-4efd-a5ef-bbbf9eb9d715",
+      "id": "c8eccab0-70ef-4f13-95f8-56c8245392f0"
+    },
+    {
+      "aid": "",
+      "status": "",
+      "department": "c8679bcf-5df3-4870-9f59-11cb3d55058b",
+      "designation": "a0c39e9c-e250-49db-957a-c009e0a58281",
+      "name": "Siddhi Savner",
+      "number": "6263933050",
+      "email": "siddhisavner420@gmail.com",
+      "aadharNo": "111199993333",
+      "basicSalary": "15000",
+      "salaryType": "Monthly",
+      "documentId": "https://firebasestorage.googleapis.com/v0/b/safal-hrm.appspot.com/o/images%2Faadhar.png?alt=media&token=01d0b6b7-fd64-4ff8-959c-e1d542dbfbd0",
+      "photo": "https://firebasestorage.googleapis.com/v0/b/safal-hrm.appspot.com/o/images%2FWhatsApp%20Image%202023-08-22%20at%203.39.23%20PM.jpeg?alt=media&token=2bac94e6-2fff-4c2f-baa4-c9944c28729b",
+      "address": "Khandelwal bridge , Pardeshipura, Indore",
+      "state": "Madhya Pradesh",
+      "city": "Indore",
+      "pinCode": "402005",
+      "id": "a19874f0-6e70-4b18-99c2-77cebfd4c9c7"
+    },
+    {
+      "aid": "",
+      "status": "",
+      "department": "c8679bcf-5df3-4870-9f59-11cb3d55058b",
+      "designation": "14cec5db-37ea-409f-afd4-4929d2b47809",
+      "name": "Gopal Tomar",
+      "number": "9753619148",
+      "email": "gopaltomar576@gmail.com",
+      "aadharNo": "834986233478",
+      "basicSalary": "15000",
+      "salaryType": "Monthly",
+      "documentId": "https://firebasestorage.googleapis.com/v0/b/safal-hrm.appspot.com/o/images%2Faadhar.png?alt=media&token=77e4aa35-74db-450a-b56a-cb76b4fe0061",
+      "photo": "https://firebasestorage.googleapis.com/v0/b/safal-hrm.appspot.com/o/images%2FWhatsApp%20Image%202023-08-22%20at%203.41.45%20PM.jpeg?alt=media&token=b659a0a2-1382-492e-a4ac-e0c843dc64d2",
+      "address": "Scheme no.78, Vijiay Nagar",
+      "state": "Madhya Pradesh",
+      "city": "Indore",
+      "pinCode": "452010",
+      "id": "485f0389-d356-405c-8150-45c3145bcaf8"
+    },
+    {
+      "aid": "",
+      "status": "",
+      "department": "c8679bcf-5df3-4870-9f59-11cb3d55058b",
+      "designation": "14cec5db-37ea-409f-afd4-4929d2b47809",
+      "name": "Lovkesh Desmukh",
+      "number": "7566855927",
+      "email": "luckybhai420@gmail.com",
+      "aadharNo": "1414171421214",
+      "basicSalary": "15000",
+      "salaryType": "Monthly",
+      "documentId": "https://firebasestorage.googleapis.com/v0/b/safal-hrm.appspot.com/o/images%2Faadhar.png?alt=media&token=92c54066-ddf4-409f-9e0b-46cd2c2330a9",
+      "photo": "https://firebasestorage.googleapis.com/v0/b/safal-hrm.appspot.com/o/images%2FWhatsApp%20Image%202023-08-22%20at%203.44.33%20PM.jpeg?alt=media&token=6b748f13-6ef6-43da-88a9-fea012934225",
+      "address": "Scheme no.114 , Vijay Nagar",
+      "state": "Madhya Pradesh",
+      "city": "Indore",
+      "pinCode": "452010",
+      "id": "67e531a4-d751-468f-9861-81d8bbd7cceb"
+    },
+    {
+      "aid": "",
+      "status": "",
+      "department": "c8679bcf-5df3-4870-9f59-11cb3d55058b",
+      "designation": "cede4c27-8821-49f1-aa9b-677cdbe20d95",
+      "name": " Bhanu tomar",
+      "number": "7000360320",
+      "email": "bhanu@gmail.com",
+      "aadharNo": "757763456548",
+      "basicSalary": "20000",
+      "salaryType": "Monthly",
+      "documentId": "https://firebasestorage.googleapis.com/v0/b/safal-hrm.appspot.com/o/images%2Faadhar.png?alt=media&token=46a44f85-1ea8-4711-816e-f92789690963",
+      "photo": "https://firebasestorage.googleapis.com/v0/b/safal-hrm.appspot.com/o/images%2FWhatsApp%20Image%202023-08-22%20at%203.46.38%20PM.jpeg?alt=media&token=ba75bea3-8e6d-4d52-a45c-a1a12184cae4",
+      "address": "Scheme no.54, Vijay Nagar",
+      "state": "Madhya Pradesh",
+      "city": "Indore",
+      "pinCode": "452010",
+      "id": "4e811eae-704a-4494-991d-6cbc94e140c2"
+    }
+  ]
+}
