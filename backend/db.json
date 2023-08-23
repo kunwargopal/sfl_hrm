@@ -27,17 +27,54 @@
       "id": "cede4c27-8821-49f1-aa9b-677cdbe20d95"
     }
   ],
-  "attendance": [],
+  "attendance": [
+    {
+      "empId": "b3fc5727-277e-4e68-b9da-4fb098ca5d4a",
+      "inTime": 1692767385591,
+      "inTimePhoto": "https://firebasestorage.googleapis.com/v0/b/safal-hrm.appspot.com/o/images%2Fman.jpeg?alt=media&token=253e724a-a6e8-450c-8895-e66260213d70",
+      "id": "1488ab0d-a4a9-476a-a2b5-45dada4ed536"
+    },
+    {
+      "empId": "c8eccab0-70ef-4f13-95f8-56c8245392f0",
+      "inTime": 1692767391481,
+      "inTimePhoto": "https://firebasestorage.googleapis.com/v0/b/safal-hrm.appspot.com/o/images%2Fman.jpeg?alt=media&token=0a11d814-4f43-4cbc-b113-600a62bce384",
+      "id": "9dae6d0e-a7c6-42fc-9442-03127c979c10"
+    },
+    {
+      "empId": "485f0389-d356-405c-8150-45c3145bcaf8",
+      "inTime": 1692767398243,
+      "inTimePhoto": "https://firebasestorage.googleapis.com/v0/b/safal-hrm.appspot.com/o/images%2Fman.jpeg?alt=media&token=0320f918-8f10-42fa-9c54-7222f56f9c77",
+      "id": "fb0b9080-99ad-42bc-bf55-fa3e2c5db35b"
+    },
+    {
+      "empId": "67e531a4-d751-468f-9861-81d8bbd7cceb",
+      "inTime": 1692767405739,
+      "inTimePhoto": "https://firebasestorage.googleapis.com/v0/b/safal-hrm.appspot.com/o/images%2Fman.jpeg?alt=media&token=ada16117-98ca-4dec-b2ba-c0b0433b7cd3",
+      "id": "8a53daa0-9d13-45de-86a7-ef595c711064"
+    },
+    {
+      "empId": "4e811eae-704a-4494-991d-6cbc94e140c2",
+      "inTime": 1692767411650,
+      "inTimePhoto": "https://firebasestorage.googleapis.com/v0/b/safal-hrm.appspot.com/o/images%2Fman.jpeg?alt=media&token=404d61d3-1ae4-4a8a-8ddb-c3d6eaf35b55",
+      "id": "791d83f0-86b9-4c4e-be03-692e9bb9c712"
+    },
+    {
+      "empId": "a19874f0-6e70-4b18-99c2-77cebfd4c9c7",
+      "inTime": 1692767421547,
+      "inTimePhoto": "https://firebasestorage.googleapis.com/v0/b/safal-hrm.appspot.com/o/images%2Fman.jpeg?alt=media&token=36133aef-425a-46b2-8cb4-8c23728db878",
+      "id": "64ec7b37-4304-469d-ab43-4687aa06ab96"
+    }
+  ],
   "advance": [],
   "deduction": [],
   "salary": [],
   "employees": [
     {
-      "aid": "",
-      "status": "",
+      "aid": "1488ab0d-a4a9-476a-a2b5-45dada4ed536",
+      "status": "in",
       "department": "c8679bcf-5df3-4870-9f59-11cb3d55058b",
       "designation": "79470a47-3f3c-427d-8371-51db434c4902",
-      "name": "Rhaul Ahirawar",
+      "name": "Rahul Ahirawar",
       "number": "7987582705",
       "email": "rahulshing091@gmail.com",
       "aadharNo": "111122223333",
@@ -52,8 +89,8 @@
       "id": "b3fc5727-277e-4e68-b9da-4fb098ca5d4a"
     },
     {
-      "aid": "",
-      "status": "",
+      "aid": "9dae6d0e-a7c6-42fc-9442-03127c979c10",
+      "status": "in",
       "department": "c8679bcf-5df3-4870-9f59-11cb3d55058b",
       "designation": "14cec5db-37ea-409f-afd4-4929d2b47809",
       "name": "Ronak Chouhan",
@@ -71,8 +108,8 @@
       "id": "c8eccab0-70ef-4f13-95f8-56c8245392f0"
     },
     {
-      "aid": "",
-      "status": "",
+      "aid": "64ec7b37-4304-469d-ab43-4687aa06ab96",
+      "status": "in",
       "department": "c8679bcf-5df3-4870-9f59-11cb3d55058b",
       "designation": "a0c39e9c-e250-49db-957a-c009e0a58281",
       "name": "Siddhi Savner",
@@ -90,8 +127,8 @@
       "id": "a19874f0-6e70-4b18-99c2-77cebfd4c9c7"
     },
     {
-      "aid": "",
-      "status": "",
+      "aid": "fb0b9080-99ad-42bc-bf55-fa3e2c5db35b",
+      "status": "in",
       "department": "c8679bcf-5df3-4870-9f59-11cb3d55058b",
       "designation": "14cec5db-37ea-409f-afd4-4929d2b47809",
       "name": "Gopal Tomar",
@@ -109,8 +146,8 @@
       "id": "485f0389-d356-405c-8150-45c3145bcaf8"
     },
     {
-      "aid": "",
-      "status": "",
+      "aid": "8a53daa0-9d13-45de-86a7-ef595c711064",
+      "status": "in",
       "department": "c8679bcf-5df3-4870-9f59-11cb3d55058b",
       "designation": "14cec5db-37ea-409f-afd4-4929d2b47809",
       "name": "Lovkesh Desmukh",
@@ -128,8 +165,8 @@
       "id": "67e531a4-d751-468f-9861-81d8bbd7cceb"
     },
     {
-      "aid": "",
-      "status": "",
+      "aid": "791d83f0-86b9-4c4e-be03-692e9bb9c712",
+      "status": "in",
       "department": "c8679bcf-5df3-4870-9f59-11cb3d55058b",
       "designation": "cede4c27-8821-49f1-aa9b-677cdbe20d95",
       "name": " Bhanu tomar",

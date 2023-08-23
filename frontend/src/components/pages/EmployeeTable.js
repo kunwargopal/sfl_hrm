@@ -6,11 +6,7 @@ import { baseUrl } from "./BaseUrl";
 import { hasPermission } from "./HashPermission";
 
 function Home() {
-  useEffect(() => {
-    if (hasPermission("Employees", "view") === false) {
-      navigate(-1);
-    }
-  }, []);
+
   useEffect(() => {
     getEmployeeData();
   }, []);
@@ -146,14 +142,14 @@ function Home() {
                 <div className="container">
                   <div className="row">
                     <div className="col-12 text-start">
-                      {hasPermission("Employees", "add") && (
+                     
                         <button
                           onClick={() => navigate("/AddEmployee")}
                           className="btn btn-primary"
                         >
                           Add
                         </button>
-                      )}
+            
                     </div>
                     <br />
                     <br />
@@ -277,7 +273,6 @@ function Home() {
                             <td>{i.aadharNo}</td>
                             <td>{i.basicSalary}</td>
                             <td>
-                              {hasPermission("Employees", "edit") && (
                                 <i
                                   onClick={() => {
                                     sessionStorage.setItem(
@@ -288,18 +283,16 @@ function Home() {
                                   }}
                                   className="fa fa-edit"
                                 ></i>
-                              )}
+                        
                               &nbsp;&nbsp;
-                              {hasPermission("Employees", "view") && (
                                 <i
                                   onClick={() => setData(i)}
                                   data-bs-toggle="modal"
                                   data-bs-target="#exampleModal"
                                   className="fa fa-eye"
                                 ></i>
-                              )}
+                        
                               &nbsp;&nbsp;
-                              {hasPermission("Employees", "delete") && (
                                 <i
                                   onClick={() => {
                                     if (window.confirm("are you sure?")) {
@@ -308,7 +301,7 @@ function Home() {
                                   }}
                                   className="fa fa-trash"
                                 ></i>
-                              )}
+                     
                             </td>
                           </tr>
                         ))}

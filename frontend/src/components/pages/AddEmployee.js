@@ -9,11 +9,7 @@ import State from "./state.json";
 import { hasPermission } from "./HashPermission";
 
 function Home() {
-  useEffect(() => {
-    if (hasPermission("Employees", "add") === false) {
-      navigate(-1);
-    }
-  }, []);
+
   useEffect(() => {
     getDepartmentData();
     getDesignationData();

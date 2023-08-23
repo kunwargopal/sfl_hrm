@@ -7,11 +7,7 @@ import storage from "./Firebase";
 import { ProgressBar } from "react-loader-spinner";
 import { hasPermission } from "./HashPermission";
 function Home() {
-  useEffect(() => {
-    if (hasPermission("Attendence", "view") === false) {
-      navigate(-1);
-    }
-  }, []);
+
   useEffect(() => {
     getEmployeeData();
   }, []);

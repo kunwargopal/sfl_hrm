@@ -5,11 +5,7 @@ import { json, useNavigate } from "react-router-dom";
 import { baseUrl } from "./BaseUrl";
 import { hasPermission } from "./HashPermission";
 function Home() {
-  useEffect(() => {
-    if (hasPermission("AttendenceRecord", "view") === false) {
-      navigate(-1);
-    }
-  }, []);
+
   useEffect(() => {
     getEmployeeData();
     getAttendanceData();

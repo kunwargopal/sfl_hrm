@@ -6,11 +6,7 @@ import { hasPermission } from "./HashPermission";
 import { json, useNavigate } from "react-router-dom";
 
 function Document() {
-  useEffect(() => {
-    if (hasPermission("MonthlyReport", "view") === false) {
-      navigate(-1);
-    }
-  }, []);
+
   useEffect(() => {
     getEmployeeData();
     getAdvanceData();
